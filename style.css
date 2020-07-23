@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'MuseoModerno', cursive;
+  background-color: #fafafa;
+}
+h1{
+  font-size: xxx-large;
+  font-family: 'MuseoModerno', cursive;
+}
+h2{
+  font-size: xx-large;
+  font-family: 'MuseoModerno', cursive;
+}
+p{
+  font-size: larger;
+}
+img{
+background-size: cover;
+}
+header{
+width: 100%;
+height: 45px;
+}
+hr{
+  width: 100%;
+  color: #fafafa;
+}
+hr:hover{
+  color: #18187f;
+}
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  color: #fafafa;
+}
+.flip-card-back {
+
+  color: #18187f;
+  transform: rotateY(180deg);
+}
+.nav{
+  background-color: #fafafa;
+  overflow: hidden;
+  text-align: center;
+}
+.nav a{
+  color: #18187f;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 18px;
+  transition-duration: 0.9s;
+}
+.nav a:hover{
+  color: #fafafa;
+  background-color: #18187f; 
+}
+.nav-a.active{
+  color: #fafafa;
+  background-color: #18187f;
+}
+  #linke{
+      color: #18187f;
+      text-decoration: transparent;
+      font-style: oblique;
+    }
+    .text {
+      background-color: #18187f !important;
+      color: #fafafa;
+      font-size: 5vw; 
+      font-weight: bold;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .footer {
+      background-color: #18187f;
+      color: #fafafa;
+      text-align: center;
+      padding-top: 2px;
+  }
+    .btn {
+      background-color: #131366;
+      border: none;
+      color: #ffffff;
+      padding: 12px 32px;
+      text-align: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition: 0.8s;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background-color: #fafafa;
+      color: #131366;
+      box-shadow: 0 8px 16px 0 #131366;
+    }
+    .card{
+      box-shadow: 0 4px 8px 0 #131366;
+      background-color: #050533;
+      border-radius: 5px;
+      border: 5px solid #050533;
+      color: #ffffff;
+      max-width: 30%;
+      margin: 15px;
+    }
+    .card:hover{
+      box-shadow: 0 16px 32px 0 #141166;
+      background-color: #ffffff;
+      color: #131366;
+      transition-duration: 0.9s;
+      border-color: #ffffff;
+    }
+    .container{
+      padding: 2px 16px;
+      border-radius: 5px;
+    }
+    .img-cert{
+     width: 100%;
+    }
+    .img-cert:hover{
+      filter: blur(1.5px);
+      transition-duration: 0.9s;
+    }
+    .card-group{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  .text-group{
+      padding: 2px 16px;
+      border-radius: 5px;
+      background-color: #ffffff;
+      color: #18187f;
+      box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+  }
+  .text-group:hover{
+    background-color: #18187f;
+    color: #ffffff;
+    transition-duration: 1.2s;
+    box-shadow: 0 16px 32px 0 #050533;
+  }
+  [class*="col-"] {
+      float: left;
+      width: 100%;
+      background-color: #fafafa;
+  }
+      
+  @media only screen and (min-width: 768px) {      
+  .col-0 {width: 4.47%;}
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.15%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .nav a {padding: 18px 60px;}
+  }
+  .slideshow-container {
+    width: 75%;
+    position: relative;
+    margin: auto;
+    top: 76px;
+    margin-bottom: 75px;
+  }
+  .mySlides {
+    display: none;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 115px;
+    padding: 16px;
+    color: #18187f;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: #ffffff
+  }
+  .text-img {
+    color: #ffffff;
+    background-color: #18187f;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 0px;
+    position: absolute;
+    bottom: 7px;
+    width: 100%;
+    text-align: center;
+  }
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .dot, .dots {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #18187f;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #050533;
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
