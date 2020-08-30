@@ -1,0 +1,56 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+header{
+    height: 120px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    box-shadow: -4px 0px 4px #000000;
+}
+.active{
+    background-color: #EBEBFF;
+    border-color: #EBEBFF;
+}
+.head-logo {
+    margin: 10px 0px;
+}
+.head {
+    text-align: right;
+}
+.head ul li {
+    display: inline-block;
+    margin: 32px 15px;
+    padding: 6px 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+}
+.head ul li:hover{
+    background-color: #EBEBFF;
+    border-color: #EBEBFF;
+    transition: ease-in 0.9s;
+}
+.bg-home{
+    background: url(/imagens/bg/bg-home.png) no-repeat;
+    background-position: center;
+    height: 440px;
+    padding-top: 200px;
+}
+.title{
+    width: 100%;
+}
+.title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 200;
+}
+.title h1::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #000000;
+    margin: 5px auto;
+}
