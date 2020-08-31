@@ -4,9 +4,11 @@
 header{
     height: 120px;
     position: fixed;
-    z-index: 1;
+    top: 0;
+    z-index: 10;
     width: 100%;
     box-shadow: -4px 0px 4px #000000;
+    background-color: #ffffff;
 }
 .active{
     background-color: #EBEBFF;
@@ -34,11 +36,9 @@ header{
 .bg-home{
     background: url(/imagens/bg/bg-home.png) no-repeat;
     background-position: center;
-    height: 440px;
-    padding-top: 200px;
-}
-.title{
-    width: 100%;
+    margin-top: 120px;
+    height: 220px;
+    padding-top: 80px;
 }
 .title h1 {
     text-align: center;
@@ -53,4 +53,83 @@ header{
     height: 2px;
     background-color: #000000;
     margin: 5px auto;
+}
+.info-home{
+    width: 100%;
+    background-color: #F8F8FB;
+    padding: 40px 0;
+    height: 450px;
+}
+.sobre {
+    text-align: center;
+     margin: 0 auto;
+}
+.sobre h1{
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 20px;    
+}
+.sobre h1::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #000000;
+    margin: 5px auto;
+}
+.sobre p {
+    font-size: 18px;
+    max-width: 340px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.btn {
+    color: black;
+    border: 2px solid #000000;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: ease-in 0.9s;
+}
+.line {
+    text-align: center;
+    padding: 40px 0px;
+}
+.skills-home{
+    text-align: center;
+    margin: 0 auto;
+}
+.skills-home h1{
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 20px; 
+}
+.skills-home h1::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #000000;
+    margin: 5px auto;
+}
+.skills-home ul li {
+    text-align: start;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 15px 5px;
+}
+.skills-home ul li:nth-child(even){
+    background-color: #B8B8D8;
+}
+.skills-home ul li:last-child{
+    margin-bottom: 20px;
+}
+.skills-home a {
+    margin-top: 20px;
 }
