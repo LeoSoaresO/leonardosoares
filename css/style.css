@@ -81,7 +81,7 @@ header{
     font-size: 18px;
     max-width: 340px;
     margin: 0 auto;
-    padding-bottom: 25px;
+    padding-bottom: 40px;
 }
 .btn {
     color: black;
@@ -128,8 +128,71 @@ header{
     background-color: #B8B8D8;
 }
 .skills-home ul li:last-child{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .skills-home a {
     margin-top: 20px;
+}
+.quebra {
+    background-color: #B8B8D8;
+    width: 100%;
+}
+.quebra p {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 580px;
+    padding: 20px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.rodapé{
+    background-color: #7373B2;
+    height: 150px;
+    width: 100%;
+}
+.rodapé-itens p {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 55px 0px;
+}
+.rodapé-itens .linha {
+    margin: 46px auto;
+    text-align: center;
+}
+.rodapé-itens ul li {
+    display: inline-block;
+    margin: 45px 15px;
+    padding: 8px 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+}
+.rodapé-itens ul li img:nth-child(odd){
+    width: 40px;
+    height: 35px;
+}
+.rodapé-itens ul li:hover{
+    background-color: #F8F8FB;
+    border-color: #F8F8FB;
+    transition: ease-in 0.9s;
+}
+.copy{
+    width: 100%;
+    background-color: #18187F;
+    height: 35px;
+    color: #F8F8FB;
+}
+.copy p {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 9px auto;
+}
+.copy .p-2 {
+    text-align: right;
 }
