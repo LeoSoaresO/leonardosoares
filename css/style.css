@@ -38,7 +38,7 @@ header{
     background-position: center;
     margin-top: 120px;
     height: 220px;
-    padding-top: 80px;
+    padding-top: 90px;
 }
 .title h1 {
     text-align: center;
@@ -86,7 +86,7 @@ header{
 .btn {
     color: black;
     border: 2px solid #000000;
-    padding: 12px 24px;
+    padding: 10px 20px;
     border-radius: 10px;
     font-size: 18px;
     text-transform: uppercase;
@@ -94,6 +94,34 @@ header{
 }
 .btn:hover{
     background-color: #000000;
+    color: #ffffff;
+    transition: ease-in 0.9s;
+}
+.btn-branco{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn-branco:hover{
+    background-color: #ffffff;
+    color: #18187f;
+    transition: ease-in 0.9s;
+}
+.btn-azul{
+    color: #18187f;
+    border: 2px solid #18187f;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn-azul:hover{
+    background-color: #18187f;
     color: #ffffff;
     transition: ease-in 0.9s;
 }
@@ -196,3 +224,26 @@ header{
 .copy .p-2 {
     text-align: right;
 }
+
+[data-anime] {
+    opacity: 0;
+  }
+  .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, opacity .8s;
+  }
+  
+  /* 7 CSS personalizado dependendo da animação desejada */
+  .fadeInDown {
+    transform: translate3d(0,-20px,0);
+  }
+  .fadeInUp {
+    transform: translate3d(0,20px,0);
+  }
+  .fadeInRight {
+    transform: translate3d(20px,0,0);
+  }
+  .fadeInLeft {
+    transform: translate3d(-20px,0,0);
+  }

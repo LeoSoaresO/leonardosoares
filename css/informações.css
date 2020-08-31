@@ -1,0 +1,130 @@
+.bg-info{
+    background: url(/imagens/bg/bg-info.png) no-repeat;
+    background-position: center;
+    margin-top: 120px;
+    height: 220px;
+    padding-top: 80px;
+}
+.content{
+    height: 600px;
+    padding: 60px 0px;
+}
+.card-1 {
+    height: 390px;
+    text-align: center;
+    
+}
+.card-1 h1{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+.card-1 h1::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #000000;
+    margin: 5px auto;
+}
+.card-1 p {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    max-width: 260px;
+    margin: 0 auto;
+}
+.half-1{
+    background-color: #f8f8fB;
+    padding-bottom: 25px;
+    border: 1px solid #f8f8fB;
+    border-radius: 0px 85px 0px 0px;
+
+}
+.half-2 {
+    padding: 15px 0px 30px 0px;
+    background-color: #18187F;
+    color: #ffffff;
+    border: 1px solid #18187F;
+    border-radius: 0px 0px 0px 85px;
+}
+.half-2 p {
+    margin-bottom: 25px;
+}
+.half-2 a {
+    font-size: 18px;
+    font-weight: 700;
+}
+.img-info{
+    text-align: center;
+    margin: 120px auto;
+}
+.card-2 {
+    height: 390px;
+    text-align: center;
+    
+}
+.card-2 h1{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+.card-2 h1::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 5px auto;
+}
+.card-2 p {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    max-width: 260px;
+    margin: 0 auto;
+}
+.half-3{
+    background-color: #18187f;
+    color: #ffffff;
+    padding-bottom: 25px;
+    border: 1px solid #18187f;
+    border-radius: 85px 0px 0px 0px;
+
+}
+.half-4 {
+    padding: 15px 0px 30px 0px;
+    background-color: #f8f8fB;
+    border: 1px solid #f8f8fB;
+    border-radius: 0px 0px 85px 0px;
+}
+.half-4 p {
+    margin-bottom: 25px;
+}
+.half-4 a {
+    font-size: 18px;
+    font-weight: 700;
+}
+.half-4 ul li {
+    display: inline-block;
+    margin: 25px 15px;
+    padding: 8px 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+}
+.half-4 ul li img:nth-child(odd){
+    width: 40px;
+    height: 35px;
+}
+.half-4 ul li:hover{
+    background-color: #B8B8D8;
+    border-color: #B8B8D8;
+    transition: ease-in 0.9s;
+}

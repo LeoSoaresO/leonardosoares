@@ -13,42 +13,42 @@
 <body>
     <header>
         <section class="container">
-            <div class="grid-4 head-logo">
+            <div class="grid-4 head-logo" data-anime="100">
                 <img src="./imagens/logomarca/marca header.png" alt="Leo">
             </div>
             <div class="head grid-12">
                 <ul>
-                    <li><a href="habilidades.html"><img src="./imagens/icones/contato - icon.svg" alt=""></a></li>
-                    <li><a href="informações.html"><img src="./imagens/icones/info - icon.svg" alt=""></a></li>
-                    <li><a href="certificados.html"><img src="./imagens/icones/certificados - icon.svg" alt=""></a></li>
-                    <li><a href="portfolio.html"><img src="./imagens/icones/portfolio - icon.svg" alt=""></a></li>
+                    <li><a href="habilidades.html" data-anime="200"><img src="./imagens/icones/contato - icon.svg" alt=""></a></li>
+                    <li><a href="informações.html" data-anime="300"><img src="./imagens/icones/info - icon.svg" alt=""></a></li>
+                    <li><a href="certificados.html" data-anime="400"><img src="./imagens/icones/certificados - icon.svg" alt=""></a></li>
+                    <li><a href="portfolio.html" data-anime="500"><img src="./imagens/icones/portfolio - icon.svg" alt=""></a></li>
                 </ul>
             </div>
         </section>
     </header>
-    <section class="bg-home">
+    <section data-anime="3000" class="bg-home">
         <div class="title container">
-            <h1>bem vindo!</h1>
+            <h1 data-anime="3400" class="fadeInDown">bem vindo!</h1>
         </div>
     </section>
     <section class="info-home">
         <div class="container">
             <div class="grid-7 sobre">
-                <h1>sobre</h1>
-                <p>Prazer, sou Leonardo Soares, tenho 21 anos e sou desenvolvedor web. Cursando Tecnólogo em Sistemas para Internet.</p>
-                <a href="informações.html" class="btn">saiba mais!</a>
+                <h1 data-anime="600" class="fadeInDown">sobre</h1>
+                <p data-anime="1000" class="fadeInDown">Prazer, sou Leonardo Soares, tenho 21 anos e sou desenvolvedor web. Cursando Tecnólogo em Sistemas para Internet.</p>
+                <a href="informações.html" data-anime="1400" class="btn fadeInDown">saiba mais!</a>
             </div>
-            <div class="grid-2 line">
+            <div class="grid-2 line fadeInDown" data-anime="1000">
                 <img src="./imagens/linhas/linhas.png" alt="">
             </div>
             <div class="grid-7 skills-home">
-                <h1>habilidades</h1>
+                <h1 data-anime="600" class="fadeInDown">habilidades</h1>
                     <ul>
-                        <li>- HTML & CSS</li>
-                        <li>- JAVASCRIPT ES6+</li>
-                        <li>- REACT JS</li>
-                        <li>- BANCO DE DADSO MYSQL</li>
-                        <li>- UI/UX DESING</li>
+                        <li data-anime="1000" class="fadeInDown">- HTML & CSS</li>
+                        <li data-anime="1400" class="fadeInDown">- JAVASCRIPT ES6+</li>
+                        <li data-anime="1800" class="fadeInDown">- REACT JS</li>
+                        <li data-anime="2200" class="fadeInDown">- BANCO DE DADSO MYSQL</li>
+                        <li data-anime="2600" class="fadeInDown">- UI/UX DESING</li>
                     </ul>
                     <a href="habilidades.html" class="btn">habilidades</a>
             </div>
@@ -86,5 +86,7 @@
             </div>
         </div>
     </section>
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
