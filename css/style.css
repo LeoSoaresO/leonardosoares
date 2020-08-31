@@ -10,10 +10,6 @@ header{
     box-shadow: -4px 0px 4px #000000;
     background-color: #ffffff;
 }
-.active{
-    background-color: #EBEBFF;
-    border-color: #EBEBFF;
-}
 .head-logo {
     margin: 10px 0px;
 }
@@ -32,6 +28,10 @@ header{
     background-color: #EBEBFF;
     border-color: #EBEBFF;
     transition: ease-in 0.9s;
+}
+.active{
+    background-color: #EBEBFF;
+    border-color: #EBEBFF !important;
 }
 .bg-home{
     background: url(/imagens/bg/bg-home.png) no-repeat;

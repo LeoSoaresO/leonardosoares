@@ -1,0 +1,72 @@
+.bg-skills{
+    background: url(/imagens/bg/bg-skills.png) no-repeat;
+    background-position: center;
+    margin-top: 120px;
+    height: 220px;
+    padding-top: 80px;
+}
+.content {
+    width: 100%;
+    background-color: #F8F8FB;
+}
+hr{
+    border: 1px solid #000000;
+    width: 65%;
+}
+.skills-icons {
+    padding: 60px 0px;
+    height: 450px;
+}
+.skills-icons h1 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+.skills-icons h1::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #000000;
+    margin: 5px 0px 5px 20px;
+}
+.skills-icons ul li{
+    display: flex;
+    border-bottom: 1px solid #000000;
+    max-width: 340px;
+}
+.skills-icons ul li p {
+    margin: 20px 12px;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.skills-icons ul li img{
+    padding: 10px;
+}
+.outros{
+    width: 100%;
+    background-color: #F8F8FB;
+    text-align: center;
+}
+.outros h1{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.outros h1::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #000000;
+    margin: 5px auto;
+}
+.outros img {
+    padding: 40px 15px;
+}
