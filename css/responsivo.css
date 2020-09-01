@@ -25,7 +25,7 @@
     }
 }
 
-@media only screen and (min-width: 345px) and (max-width: 788px) {
+@media only screen and (max-width: 788px) {
     header{
         position: relative;
         height: auto;
@@ -108,5 +108,21 @@
         max-width: 300px;
         max-height: 200px;
         margin: 0 auto; 
+    }
+    .title h1 {
+        font-size: 36px;
+    }
+    .img-port{
+        max-width: 300px;
+        max-height: 200px;
+    }
+    .port p {
+        max-width: 300px;
+    }
+    .content-port {
+        height: auto;
+    }
+    .bg-port {
+       background-position: left;
     }
 }
