@@ -20,9 +20,12 @@
     .port p {
         width: 740px;
     }
+    .bg-info {
+        background-position: right;
+    }
 }
 
-@media only screen and (max-width: 788px) {
+@media only screen and (min-width: 345px) and (max-width: 788px) {
     header{
         position: relative;
         height: auto;
@@ -46,7 +49,7 @@
     .linha, .line {
         display: none;
     }
-    .info-home, .rodapé, .copy, .skills-icons{
+    .info-home, .rodapé, .copy, .skills-icons, .content-info{
         height: auto;
     }
     .skills-home {
@@ -82,4 +85,16 @@
     .outros img {
         padding: 10px 0px;
     }
+    .bg-info {
+        background-position: right;
+    }
+    .half-1 {
+        border-radius: 85px 0px 0px 0px;
+    }
+    .half-2 {
+        border-radius: 0px 0px 85px 0px;
+    }
+}
+@media only screen and (min-width: 345px) and (max-width: 788px) {
+    
 }

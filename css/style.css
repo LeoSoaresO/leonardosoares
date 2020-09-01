@@ -221,6 +221,7 @@ header{
     font-weight: 300;
     letter-spacing: 1px;
     margin: 9px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .copy .p-2 {
     text-align: right;
