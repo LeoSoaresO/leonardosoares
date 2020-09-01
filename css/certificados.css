@@ -12,6 +12,7 @@
 }
 .img{
     width: 100%;
+    border-radius: 10px;
 }
 .certi ul li img {
     max-width: 220px;
@@ -20,7 +21,7 @@
 .certi-big ul li img {
     max-width: 460px;
     height: 350px;
-    padding: 20px 0px;
+    margin-top: 175px;
 }
 
 [data-slide] {
@@ -32,7 +33,7 @@
     opacity: 0;
   }
   [data-slide] > .active {
-    position: relative;
+    position: absolute;
     opacity: 1;
     transition: opacity 800ms;
     z-index: 1;

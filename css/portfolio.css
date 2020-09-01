@@ -11,12 +11,12 @@
     margin: 0 auto;
     text-align: center;
 }
-.img{
+.img-port{
     width: 940px;
     height: 450px;
     margin: 0 auto;
 }
-.img:hover {
+.img-port:hover {
     background-color: #000000;
     opacity: 0.4;
     transition: 0.9s;

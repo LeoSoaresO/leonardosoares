@@ -1,0 +1,23 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    .card-1, .card-2 {
+        z-index: 2;
+    }
+    .half-1 h1, .half-3 h1 {
+        font-size: 20px;
+    }
+    .half-1 p, .half-3 p{
+        margin: 0px 15px;
+        letter-spacing: normal;
+        font-size: 14px;
+    }
+    .certi-big ul li img {
+        height: 250px;
+        margin-top: 150px;
+    }
+    .img-port {
+        width: 740px;
+    }
+    .port p {
+        width: 740px;
+    }
+}
