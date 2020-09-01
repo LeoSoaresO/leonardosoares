@@ -29,7 +29,7 @@ header{
     border-color: #e7e7f1;
     transition: ease-in 0.9s;
 }
-.active{
+.ativo{
     background-color: #e7e7f1;
     border-color: #e7e7f1 !important;
 }
