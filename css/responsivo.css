@@ -49,7 +49,7 @@
     .linha, .line {
         display: none;
     }
-    .info-home, .rodapé, .copy, .skills-icons, .content-info{
+    .info-home, .rodapé, .copy, .skills-icons, .content-info {
         height: auto;
     }
     .skills-home {
@@ -94,7 +94,19 @@
     .half-2 {
         border-radius: 0px 0px 85px 0px;
     }
-}
-@media only screen and (min-width: 345px) and (max-width: 788px) {
-    
+    .content-certi{
+        height: 1450px;
+    }
+    .certi ul li img {
+        max-width: 300px;
+        max-height: 200px;
+    }
+    .certi-big ul {
+        padding-top: 890px;
+    }
+    .certi-big ul li img {
+        max-width: 300px;
+        max-height: 200px;
+        margin: 0 auto; 
+    }
 }
