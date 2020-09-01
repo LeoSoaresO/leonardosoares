@@ -46,7 +46,7 @@
     .linha, .line {
         display: none;
     }
-    .info-home, .rodapé, .copy{
+    .info-home, .rodapé, .copy, .skills-icons{
         height: auto;
     }
     .skills-home {
@@ -68,5 +68,18 @@
     }
     .rodapé-itens ul {
         padding-left: 15px;
+    }
+    .skills-icons h1, .skills-icons h1::after {
+        margin: 5px auto;
+        text-align: center;
+    }
+    .skills-icons ul li img {
+        height: 60px;
+    }
+    .outros h1 {
+        margin-bottom: 20px;
+    }
+    .outros img {
+        padding: 10px 0px;
     }
 }
