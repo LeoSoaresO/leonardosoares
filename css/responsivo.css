@@ -21,3 +21,52 @@
         width: 740px;
     }
 }
+
+@media only screen and (max-width: 788px) {
+    header{
+        position: relative;
+        height: auto;
+    }
+    .head{
+        text-align: center;
+    }
+    .head-logo{
+        text-align: center;
+    }
+    .head ul li {
+        position: relative;
+        padding-bottom: 0;
+        margin: 4px;
+        padding: 5px 8px;
+    }
+    .bg-home, .bg-port, .bg-certi,
+    .bg-skills, .bg-info {
+        margin-top: 0;
+    }
+    .linha, .line {
+        display: none;
+    }
+    .info-home, .rodapé, .copy{
+        height: auto;
+    }
+    .skills-home {
+        margin-top: 100px;
+    } 
+    .rodapé-itens p{
+        margin: 20px;
+    }
+    .rodapé-itens p::after{
+        content: "";
+        display: block;
+        width: 80px;
+        height: 2px;
+        background-color: #000000;
+        margin: 5px auto;
+    }
+    .rodapé-itens ul li{
+        margin: 20px 10px;   
+    }
+    .rodapé-itens ul {
+        padding-left: 15px;
+    }
+}
