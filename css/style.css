@@ -25,13 +25,13 @@ header{
     text-align: center;
 }
 .head ul li:hover{
-    background-color: #EBEBFF;
-    border-color: #EBEBFF;
+    background-color: #e7e7f1;
+    border-color: #e7e7f1;
     transition: ease-in 0.9s;
 }
 .active{
-    background-color: #EBEBFF;
-    border-color: #EBEBFF !important;
+    background-color: #e7e7f1;
+    border-color: #e7e7f1 !important;
 }
 .bg-home{
     background: url(../imagens/bg/bg-home.png) no-repeat;
@@ -183,10 +183,11 @@ header{
 }
 .rodapé-itens p {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 1px;
     text-align: center;
     margin: 55px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .rodapé-itens .linha {
     margin: 46px auto;

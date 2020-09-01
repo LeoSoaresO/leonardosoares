@@ -38,9 +38,9 @@
     margin: 0 auto;
 }
 .half-1{
-    background-color: #f8f8fB;
+    background-color: #e7e7f1;
     padding-bottom: 25px;
-    border: 1px solid #f8f8fB;
+    border: 1px solid #e7e7f1;
     border-radius: 0px 85px 0px 0px;
 
 }
@@ -100,8 +100,8 @@
 }
 .half-4 {
     padding: 15px 0px 30px 0px;
-    background-color: #f8f8fB;
-    border: 1px solid #f8f8fB;
+    background-color: #e7e7f1;
+    border: 1px solid #e7e7f1;
     border-radius: 0px 0px 85px 0px;
 }
 .half-4 p {
